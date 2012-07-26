@@ -38,7 +38,7 @@ CREATE TABLE venues (
   );
 
 INSERT INTO venues (name, postal_code, country_code)
-VALUES ('Cristal Ballrooom', '97205', 'us');
+VALUES ('Crystal Ballroom', '97205', 'us');
 
 INSERT INTO venues (name, postal_code, country_code)
 VALUES ('Voodoo Donuts', '97205', 'us') RETURNING venue_id;
@@ -61,7 +61,3 @@ VALUES ('April Fools Day', '2012-04-01 00:00:00', '2012-04-01 23:59:00'),
 
 CREATE INDEX events_title ON events USING hash (title);
 CREATE INDEX events_starts ON events USING btree (starts);
-
-
-
-
