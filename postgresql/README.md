@@ -33,6 +33,10 @@ Check for instance with this command
     (1)
     (1 row)
 
+TODO:
+
+  * [] fix & refactor day3
+
 ## License
 
 Copyright (C) 2012 [@2h2n](https://twitter.com/2h2n/)
