@@ -116,24 +116,24 @@ SELECT add_comment('Capt. Dan', 'Fly me to the moon ... or not Tom Hanks', 'Appo
 SELECT add_comment('Capt. Dan', 'Another great performance for Tom Hanks', 'Saving Private Ryan');
 SELECT add_comment('Jenny', 'Tom Hanks is such a great actor', 'Philadelphia');
 
-CREATE OR REPLACE FUNCTION get_lastname( name text )
+CREATE OR REPLACE FUNCTION queryfy_name( name text )
 RETURNS text AS $$
 DECLARE
-  lastname text;
+  query_string text;
 BEGIN
-  lastname := trim(substring(name, '[\s][^\s]*$'));
-  RETURN lastname; 
+  query_string := trim(quote_literal(replace(name, ' ', ' & ')));
+  RETURN query_string;
 END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE FUNCTION find_most_talked_actors_in_comments()
 RETURNS TABLE(name text, rank bigint) AS $$
 BEGIN
-  RETURN QUERY SELECT a.name, count(a.name) AS rank
+  RETURN QUERY SELECT a.name, count(a.name) AS nb_count
   FROM actors a, comments c
-  WHERE to_tsvector('english', c.comment) @@ to_tsquery('english', get_lastname(a.name))
+  WHERE to_tsvector('english', c.comment) @@ to_tsquery('english', queryfy_name(a.name))
   GROUP BY a.name
-  ORDER by rank desc;
+  ORDER by nb_count desc;
 END;
 $$ LANGUAGE plpgsql;
 

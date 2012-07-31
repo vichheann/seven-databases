@@ -35,7 +35,7 @@ Check for instance with this command
 
 TODO:
 
-  * [] fix & refactor day3
+  * [] refactor day3
 
 ## License
 
