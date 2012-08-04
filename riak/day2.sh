@@ -55,6 +55,7 @@ curl -X POST -H "content-type:application/json" http://$riak_server/mapred \
 }'
 }
 
+# https://github.com/basho/riak_kv/blob/master/priv/mapred_builtins.js
 function built-in_function() {
   curl -X POST http://$riak_server/mapred -H "Content-type:application/json" \
        --data \
