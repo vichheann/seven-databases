@@ -70,9 +70,9 @@ Easier on mac
     brew install thrift
     gem install thrift
 
-### AWS
+### Using EC2 on AWS
 
-To avoid being charged to much by AWS, let's use the [Free Usage Tier Offer](https://aws.amazon.com/free/). I have to specify the image and hardware id in the `hbase.properties`
+To avoid being charged to much by AWS, let's use the [Free Usage Tier Offer](https://aws.amazon.com/free/). We have to specify the image and hardware id in the `hbase.properties`
 
     # AWS free offer allows micro image only
     whirr.hardware-id=t1.micro
@@ -97,10 +97,65 @@ Then, I tried to launch the cluster. All was fine, I could see the instances on 
 
 So a little googling leads me to this [issue](https://issues.apache.org/jira/browse/WHIRR-459) which will be fixed in `whirr 0.72` ....
 
+**UPDATE**
+
+Woohoo, I made it! Here how I completed day 3
+
+*  To fix the previous issue, Google is really my friend. My ISP DNS server was the guilty one, so I picked the famous 8.8.8.8 from Google as it is said [here](https://mail-archives.apache.org/mod_mbox/whirr-user/201204.mbox/%3CCAHZL8y_qQjBm6qeSSRAiL0ac1Lsb-hZ9Do8sW2j09GT3gD6oow@mail.gmail.com%3E).
+*  Next, it seems that `whirr` default url to `zookeeper` tarball was [wrong](https://issues.apache.org/jira/browse/WHIRR-617). So add this to your `hbase.property` file:
+
+         whirr.zookeeper.tarball.url=http://apache.osuosl.org/zookeeper/zookeeper-3.4.3/zookeeper-3.4.3.tar.gz
+
+
+
+*  Now you can run `whirr` ... but it won't work. The generated setup script on each instance tries to install some package like `java` but sometime failed, depending on the machine & location. This is described [here](https://issues.apache.org/jira/browse/WHIRR-528).
+But don't panic, and take a deep breath:
+  *  Log in to each instance with `ssh` and
+
+            sudo apt-get update
+            sudo apt-get install openjdk-6-jdk
+
+     I also have to create a symbolic link
+
+            cd /usr/lib/jvm
+            sudo ln -s java-6-openjdk-amd64 java-6-openjdk
+
+  *  Recall 'sudo /tmp/setup-{user}.sh' and then on the master node
+
+            sudo /tmp/configure-zookeeper_hadoop-namenode_hadoop-jobtracker_hbase-master/configure-zookeeper_hadoop-namenode_hadoop-jobtracker_hbase-master.sh
+
+  * And on the `regionserver` nodes
+
+            sudo /tmp/configure-hadoop-datanode_hadoop-tasktracker_hbase-regionserver/configure-hadoop-datanode_hadoop-tasktracker_hbase-regionserver.sh
+
+
+* Check the servers status
+
+        /usr/local/hbase/bin/hbase shell
+
+    and call the `status` command. This should be ok on any nodes.
+
+* if it's not working (and it might be), you can do that:
+
+    * On the master node
+
+            sudo service zookeeper start
+            sudo -u hadoop /usr/local/hadoop/bin/hadoop-daemon.sh start namenode
+            sudo -u hadoop /usr/local/hadoop/bin/hadoop-daemon.sh start jobtracker
+            sudo -u hadoop /usr/local/hbase/bin/hbase-daemon.sh start master
+
+   *  On a regionserver node
+
+            sudo -u hadoop /usr/local/hadoop/bin/hadoop-daemon.sh start namenode
+            sudo -u hadoop /usr/local/hadoop/bin/hadoop-daemon.sh start tasktracker
+            sudo -u hadoop /usr/local/hbase/bin/hbase-daemon.sh start regionserver
+
+
+I'm not sure you'll need to do all this but that's how I managed to setup a hbase cluster with EC2. Hope this help! Happy Clouding!
 
 ## TODO
 
-*  [] Retry to launch the cluster on AWS with a good version of 'whirr'
+*  [x] Retry to launch the cluster on AWS with a good version of 'whirr'
 *  [] Use MapRed to import data
 
 ## License
