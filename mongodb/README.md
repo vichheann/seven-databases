@@ -20,6 +20,7 @@ You may need mongo driver for Ruby
 
     gem install mongo
 
+Read the [tutorial](http://api.mongodb.org/ruby/current/file.TUTORIAL.html) to use it.
 
 ## License
 

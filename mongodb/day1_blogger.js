@@ -1,4 +1,6 @@
-db.articles.remove({});
+db = db.getSisterDB("blogger")
+
+db.articles.drop();
 
 print("--> 4")
 my_article = {
