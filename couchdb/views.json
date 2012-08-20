@@ -1,0 +1,35 @@
+{
+  "language":"javascript",
+  "views": {
+    "artist": {
+       "map":"function(doc){ if (doc.random) emit(doc.random, doc.name); }"},
+    "album": {
+       "map":"function(doc){
+                if ('albums' in doc)
+                  doc.albums.forEach(function(album){
+                    if ('random' in album)
+                      emit(album.random, album.name);});
+              }"
+            },
+    "track": {
+       "map":"function(doc) {
+                if ('albums' in doc)
+                  doc.albums.forEach(function(album){
+                    if ('tracks' in album)
+                      album.tracks.forEach(function(track) {
+                        emit(track.random, track.name);});});
+              }"
+            },
+    "tag": {
+       "map":"function(doc) {
+                if ('albums' in doc)
+                  doc.albums.forEach(function(album){
+                    if ('tracks' in album)
+                      album.tracks.forEach(function(track) {
+                        if ('tags' in track)
+                          track.tags.forEach(function(tag) {
+                            emit(tag.random, tag.idstr);});});});
+              }"
+           }
+  }
+}
