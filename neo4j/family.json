@@ -1,0 +1,28 @@
+{"script":
+"g.clear();
+homer=g.addVertex([name:'Homer Simpson']);
+marge=g.addVertex([name:'Marge Simpson']);
+lisa=g.addVertex([name:'Lisa Simpson']);
+bart=g.addVertex([name:'Bart Simpson']);
+maggie=g.addVertex([name:'Maggie Simpson']);
+abe=g.addVertex([name:'Abraham Simpson']);
+mona=g.addVertex([name:'Mona Simpson']);
+selma=g.addVertex([name:'Selma Bouvier']);
+patty=g.addVertex([name:'Patty Bouvier']);
+jackie=g.addVertex([name:'Jacqueline Bouvier']);
+ling=g.addVertex([name:'Ling Bouvier']);
+g.addEdge(homer,marge,'married with');
+g.addEdge(homer,lisa,'father of');
+g.addEdge(marge,lisa,'mother of');
+g.addEdge(homer,bart,'father of');
+g.addEdge(marge,bart,'mother of');
+g.addEdge(homer,maggie,'father of');
+g.addEdge(marge,maggie,'mother of');
+g.addEdge(abe,homer,'father of');
+g.addEdge(mona,homer,'mother of');
+g.addEdge(jackie,marge,'mother of');
+g.addEdge(jackie,selma,'mother of');
+g.addEdge(jackie,patty,'mother of');
+g.addEdge(selma,ling,'mother of');",
+"params":{}
+}
