@@ -1,0 +1,1543 @@
+# adapted from https://github.com/sandavid/paris-metro-map/blob/master/Connexions_IDF.csv
+
+A3;Cergy le Haut;Cergy St Christophe
+A3;Cergy St Christophe;Cergy le Haut
+A3;Cergy St Christophe;Cergy Prefecture
+A3;Cergy Prefecture;Cergy St Christophe
+A3;Cergy Prefecture;Neuville Universite
+A3;Neuville Universite;Cergy Prefecture
+A3;Neuville Universite;Conflans Fin d'Oise
+A3;Conflans Fin d'Oise;Neuville Universite
+A3;Conflans Fin d'Oise;Acheres Ville
+A3;Acheres Ville;Conflans Fin d'Oise
+A3;Acheres Ville;Maisons Laffitte
+A3;Maisons Laffitte;Acheres Ville
+
+A5;Poissy;Acheres Grand Cormier
+A5;Acheres Grand Cormier;Poissy
+A5;Acheres Grand Cormier;Maisons Laffitte
+A5;Maisons Laffitte;Acheres Grand Cormier
+
+A35;Maisons Laffitte;Sartrouville
+A35;Sartrouville;Maisons Laffitte
+A35;Sartrouville;Houilles Carrieres sur Seine
+A35;Houilles Carrieres sur Seine;Sartrouville
+A35;Houilles Carrieres sur Seine;Nanterre Prefecture
+A35;Nanterre Prefecture;Houilles Carrieres sur Seine
+
+A1;St Germain en Laye;Le Vesinet Le Pecq
+A1;Le Vesinet Le Pecq;St Germain en Laye
+A1;Le Vesinet Le Pecq;Le Vesinet Centre
+A1;Le Vesinet Centre;Le Vesinet Le Pecq
+A1;Le Vesinet Centre;Chatou Croissy
+A1;Chatou Croissy;Le Vesinet Centre
+A1;Chatou Croissy;Rueil Malmaison
+A1;Rueil Malmaison;Chatou Croissy
+A1;Rueil Malmaison;Nanterre Ville
+A1;Nanterre Ville;Rueil Malmaison
+A1;Nanterre Ville;Nanterre Univerisite
+A1;Nanterre Univerisite;Nanterre Ville
+A1;Nanterre Univerisite;Nanterre Prefecture
+A1;Nanterre Prefecture;Nanterre Univerisite
+
+A;Nanterre Prefecture;La Defense
+A;La Defense;Nanterre Prefecture
+A;La Defense;Etoile Charles de Gaulle
+A;Etoile Charles de Gaulle;La Defense
+A;Etoile Charles de Gaulle;Auber
+A;Auber;Etoile Charles de Gaulle
+A;Auber;Chatelet Les Halles
+A;Chatelet Les Halles;Auber
+A;Chatelet Les Halles;Gare de Lyon
+A;Gare de Lyon;Chatelet Les Halles
+A;Gare de Lyon;Nation
+A;Nation;Gare de Lyon
+A;Nation;Vincennes
+A;Vincennes;Nation
+
+W;Haussmann St Lazare;Auber
+W;Auber;Haussmann St Lazare
+W;Havre Caumartin;Auber
+W;Auber;Havre Caumartin
+W;Opera;Auber
+W;Auber;Opera
+W;Saint Lazare;Auber
+W;Auber;Saint Lazare
+
+W;Chatelet;Chatelet Les Halles
+W;Chatelet Les Halles;Chatelet
+W;Les Halles;Chatelet Les Halles
+W;Chatelet Les Halles;Les Halles
+
+A2;Boissy St Leger;Sucy Bonneuil
+A2;Sucy Bonneuil;Boissy St Leger
+A2;Sucy Bonneuil;La Varenne Chevrieres
+A2;La Varenne Chevrieres;Sucy Bonneuil
+A2;La Varenne Chevrieres;Champigny
+A2;Champigny;La Varenne Chevrieres
+A2;Champigny;Le Parc de St Maur
+A2;Le Parc de St Maur;Champigny
+A2;Le Parc de St Maur;St Maur Creteil
+A2;St Maur Creteil;Le Parc de St Maur
+A2;St Maur Creteil;Joinville le Pont
+A2;Joinville le Pont;St Maur Creteil
+A2;Joinville le Pont;Nogent sur Marne
+A2;Nogent sur Marne;Joinville le Pont
+A2;Nogent sur Marne;Fontenay sous Bois
+A2;Fontenay sous Bois;Nogent sur Marne
+A2;Fontenay sous Bois;Vincennes
+A2;Vincennes;Fontenay sous Bois
+
+A4;Marne la Vallee Chessy;Val d'Europe
+A4;Val d'Europe;Marne la Vallee Chessy
+A4;Val d'Europe;Bussy St Georges
+A4;Bussy St Georges;Val d'Europe
+A4;Bussy St Georges;Torcy
+A4;Torcy;Bussy St Georges
+A4;Torcy;Lognes
+A4;Lognes;Torcy
+A4;Lognes;Noisiel
+A4;Noisiel;Lognes
+A4;Noisiel;Noisy Champs
+A4;Noisy Champs;Noisiel
+A4;Noisy Champs;Noisy le Grand Mont d'Est
+A4;Noisy le Grand Mont d'Est;Noisy Champs
+A4;Noisy le Grand Mont d'Est;Brie sur Marne
+A4;Brie sur Marne;Noisy le Grand Mont d'Est
+A4;Brie sur Marne;Neuilly Plaisance
+A4;Neuilly Plaisance;Brie sur Marne
+A4;Neuilly Plaisance;Val de Fontenay
+A4;Val de Fontenay;Neuilly Plaisance
+A4;Val de Fontenay;Vincennes
+A4;Vincennes;Val de Fontenay
+
+B4;St Remy les chevreuse;Courcelle sur Yvette
+B4;Courcelle sur Yvette;St Remy les chevreuse
+B4;Courcelle sur Yvette;Gif sur Yvette
+B4;Gif sur Yvette;Courcelle sur Yvette
+B4;Gif sur Yvette;La Hacquiniere
+B4;La Hacquiniere;Gif sur Yvette
+B4;La Hacquiniere;Bures sur Yvette
+B4;Bures sur Yvette;La Hacquiniere
+B4;Bures sur Yvette;Orsay la Ville
+B4;Orsay la Ville;Bures sur Yvette
+B4;Orsay la Ville;Le Guichet
+B4;Le Guichet;Orsay la Ville
+B4;Le Guichet;Lozere
+B4;Lozere;Le Guichet
+B4;Lozere;Palaiseau Villebon
+B4;Palaiseau Villebon;Lozere
+B4;Palaiseau Villebon;Palaiseau
+B4;Palaiseau;Palaiseau Villebon
+B4;Palaiseau;Massy Palaiseau
+B4;Massy Palaiseau;Palaiseau
+B4;Massy Palaiseau;Massy Verrieres
+B4;Massy Verrieres;Massy Palaiseau
+B4;Massy Verrieres;Les Baconnets
+B4;Les Baconnets;Massy Verrieres
+B4;Les Baconnets;Fontaine Michalon
+B4;Fontaine Michalon;Les Baconnets
+B4;Fontaine Michalon;Antony
+B4;Antony;Fontaine Michalon
+B4;Antony;La Croix Berny
+B4;La Croix Berny;Antony
+B4;La Croix Berny;Parc de Sceaux
+B4;Parc de Sceaux;La Croix Berny
+B4;Parc de Sceaux;Bourg la Reine
+B4;Bourg la Reine;Parc de Sceaux
+
+B2;Robinson;Fontenay aux Roses
+B2;Fontenay aux Roses;Robinson
+B2;Fontenay aux Roses;Sceaux
+B2;Sceaux;Fontenay aux Roses
+B2;Sceaux;Bourg la Reine
+B2;Bourg la Reine;Sceaux
+
+B;Bourg la Reine;Bagneux
+B;Bagneux;Bourg la Reine
+B;Bagneux;Arcueil Cachan
+B;Arcueil Cachan;Bagneux
+B;Arcueil Cachan;Laplace
+B;Laplace;Arcueil Cachan
+B;Laplace;Gentilly
+B;Gentilly;Laplace
+B;Gentilly;Cite Universitaire
+B;Cite Universitaire;Gentilly
+B;Cite Universitaire;Denfert Rochereau
+B;Denfert Rochereau;Cite Universitaire
+B;Denfert Rochereau;Port Royal
+B;Port Royal;Denfert Rochereau
+B;Port Royal;Luxembourg
+B;Luxembourg;Port Royal
+B;Luxembourg;St Michel Notre Dame
+B;St Michel Notre Dame;Luxembourg
+B;St Michel Notre Dame;Chatelet Les Halles
+B;Chatelet Les Halles;St Michel Notre Dame
+B;Chatelet Les Halles;Gare du Nord
+B;Gare du Nord;Chatelet Les Halles
+B;Gare du Nord;La Plaine Stade de France
+B;La Plaine Stade de France;Gare du Nord
+B;La Plaine Stade de France;La Courneuve Aubervilliers
+B;La Courneuve Aubervilliers;La Plaine Stade de France
+B;La Courneuve Aubervilliers;Le Bourget
+B;Le Bourget;La Courneuve Aubervilliers
+B;Le Bourget;Drancy
+B;Drancy;Le Bourget
+B;Drancy;Le Blanc Mesnil
+B;Le Blanc Mesnil;Drancy
+B;Le Blanc Mesnil;Aulnay sous Bois
+B;Aulnay sous Bois;Le Blanc Mesnil
+
+W;Gare du Nord;La Chapelle
+W;La Chapelle;Gare du Nord
+W;Gare du Nord;Magenta
+W;Magenta;Gare du Nord
+W;Gare de l'Est;Magenta
+W;Magenta;Gare de l'Est
+
+W;Cluny.La Sorbonne;St Michel Notre Dame
+W;St Michel Notre Dame;Cluny.La Sorbonne
+W;Saint Michel;St Michel Notre Dame
+W;St Michel Notre Dame;Saint Michel
+
+B3;Aeroport Charles de Gaulle-2;Aeroport Charles de Gaulle-1
+B3;Aeroport Charles de Gaulle-1;Aeroport Charles de Gaulle-2
+B3;Aeroport Charles de Gaulle-1;Parc des Expositions
+B3;Parc des Expositions;Aeroport Charles de Gaulle-1
+B3;Parc des Expositions;Villepinte
+B3;Villepinte;Parc des Expositions
+B3;Villepinte;Sevran Beaudottes
+B3;Sevran Beaudottes;Villepinte
+B3;Sevran Beaudottes;Aulnay sous Bois
+B3;Aulnay sous Bois;Sevran Beaudottes
+
+B5;Mitry Claye;Villeparisis Mitry le Neuf
+B5;Villeparisis Mitry le Neuf;Mitry Claye
+B5;Villeparisis Mitry le Neuf;Vert Galant
+B5;Vert Galant;Villeparisis Mitry le Neuf
+B5;Vert Galant;Sevran Livry
+B5;Sevran Livry;Vert Galant
+B5;Sevran Livry;Aulnay sous Bois
+B5;Aulnay sous Bois;Sevran Livry
+
+C1;Pontoise;St Ouen l'Aumone
+C1;St Ouen l'Aumone;Pontoise
+C1;St Ouen l'Aumone;St Ouen l'Aumone Liesse
+C1;St Ouen l'Aumone Liesse;St Ouen l'Aumone
+C1;St Ouen l'Aumone Liesse;Pierrelaye
+C1;Pierrelaye;St Ouen l'Aumone Liesse
+C1;Pierrelaye;Montigny Beauchamp
+C1;Montigny Beauchamp;Pierrelaye
+C1;Montigny Beauchamp;Franconville Le Plessis Bouchard
+C1;Franconville Le Plessis Bouchard;Montigny Beauchamp
+C1;Franconville Le Plessis Bouchard;Cernay
+C1;Cernay;Franconville Le Plessis Bouchard
+C1;Cernay;Ermont Eaubonne
+C1;Ermont Eaubonne;Cernay
+C1;Ermont Eaubonne;Saint Gratien
+C1;Saint Gratien;Ermont Eaubonne
+C1;Saint Gratien;Epinay sur Seine
+C1;Epinay sur Seine;Saint Gratien
+C1;Epinay sur Seine;Gennevilliers
+C1;Gennevilliers;Epinay sur Seine
+C1;Gennevilliers;Les Gresillions
+C1;Les Gresillions;Gennevilliers
+C1;Les Gresillions;Saint Ouen
+C1;Saint Ouen;Les Gresillions
+C1;Saint Ouen;Porte de Clichy
+C1;Porte de Clichy;Saint Ouen
+C1;Porte de Clichy;Pereire Levallois
+C1;Pereire Levallois;Porte de Clichy
+C1;Pereire Levallois;Neuilly Porte Maillot
+C1;Neuilly Porte Maillot;Pereire Levallois
+C1;Neuilly Porte Maillot;Avenue Foch
+C1;Avenue Foch;Neuilly Porte Maillot
+C1;Avenue Foch;Avenue Henri Martin
+C1;Avenue Henri Martin;Avenue Foch
+C1;Avenue Henri Martin;Boulainvilliers
+C1;Boulainvilliers;Avenue Henri Martin
+C1;Boulainvilliers;Av du Pdt Kennedy
+C1;Av du Pdt Kennedy;Boulainvilliers
+C1;Av du Pdt Kennedy;Champs de Mars Tour Eiffel
+C1;Champs de Mars Tour Eiffel;Av du Pdt Kennedy
+
+W;Boulainvilliers;La Muette
+W;La Muette;Boulainvilliers
+W;Neuilly Porte Maillot;Porte Maillot
+W;Porte Maillot;Neuilly Porte Maillot
+W;Pereire Levallois;Pereire
+W;Pereire;Pereire Levallois
+
+C7;St Quentin en Yvelines;Saint Cyr
+C7;Saint Cyr;St Quentin en Yvelines
+C7;Saint Cyr;Versailles Chantiers
+C7;Versailles Chantiers;Saint Cyr
+C7;Versailles Chantiers;Viroflay Rive Gauche
+C7;Viroflay Rive Gauche;Versailles Chantiers
+
+C5;Versailles Rive Gauche;Porchefontaine
+C5;Porchefontaine;Versailles Rive Gauche
+C5;Porchefontaine;Viroflay Rive Gauche
+C5;Viroflay Rive Gauche;Porchefontaine
+
+C57;Chaville Velisy;Viroflay Rive Gauche
+C57;Viroflay Rive Gauche;Chaville Velisy
+C57;Viroflay Rive Gauche;Meudon Val Fleury
+C57;Meudon Val Fleury;Viroflay Rive Gauche
+C57;Meudon Val Fleury;Issy
+C57;Issy;Meudon Val Fleury
+C57;Issy;Issy Val de Seine
+C57;Issy Val de Seine;Issy
+C57;Issy Val de Seine;Boulevard Victor
+C57;Boulevard Victor;Issy Val de Seine
+C57;Boulevard Victor;Javel
+C57;Javel;Boulevard Victor
+C57;Javel;Champs de Mars Tour Eiffel
+C57;Champs de Mars Tour Eiffel;Javel
+
+C;Choisy le Roy;Les Ardoines
+C;Les Ardoines;Choisy le Roy
+C;Les Ardoines;Vitry sur Seine
+C;Vitry sur Seine;Les Ardoines
+C;Vitry sur Seine;Ivry sur Seine
+C;Ivry sur Seine;Vitry sur Seine
+C;Ivry sur Seine;Bibliotheque Francois Mitterrand
+C;Bibliotheque Francois Mitterrand;Ivry sur Seine
+C;Bibliotheque Francois Mitterrand;Gare d'Austerlitz
+C;Gare d'Austerlitz;Bibliotheque Francois Mitterrand
+C;Gare d'Austerlitz;St Michel Notre Dame
+C;St Michel Notre Dame;Gare d'Austerlitz
+C;St Michel Notre Dame;Musee d'Orsay
+C;Musee d'Orsay;St Michel Notre Dame
+C;Musee d'Orsay;Invalides
+C;Invalides;Musee d'Orsay
+C;Invalides;Pont de l'Alma
+C;Pont de l'Alma;Invalides
+C;Pont de l'Alma;Champs de Mars Tour Eiffel
+C;Champs de Mars Tour Eiffel;Pont de l'Alma
+
+C2;Massy Palaiseau;Massy Verrieres
+C2;Massy Verrieres;Massy Palaiseau
+C2;Massy Verrieres;Chemin d'Antony
+C2;Chemin d'Antony;Massy Verrieres
+C2;Chemin d'Antony;Rungis la Fraternelle
+C2;Rungis la Fraternelle;Chemin d'Antony
+C2;Rungis la Fraternelle;Pont de Rungis Aeroport d'Orly
+C2;Pont de Rungis Aeroport d'Orly;Rungis la Fraternelle
+C2;Pont de Rungis Aeroport d'Orly;Orly Ville
+C2;Orly Ville;Pont de Rungis Aeroport d'Orly
+C2;Orly Ville;Les Saules
+C2;Les Saules;Orly Ville
+C2;Les Saules;Choisy le Roy
+C2;Choisy le Roy;Les Saules
+
+C468;Athis Mons;Ablon
+C468;Ablon;Athis Mons
+C468;Ablon;Villeneuve le Roi
+C468;Villeneuve le Roi;Ablon
+C468;Villeneuve le Roi;Choisy le Roy
+C468;Choisy le Roy;Villeneuve le Roi
+
+C46;Bretigny sur Orge;St Michel sur Orge
+C46;St Michel sur Orge;Bretigny sur Orge
+C46;St Michel sur Orge;St Genevieve des Bois
+C46;St Genevieve des Bois;St Michel sur Orge
+C46;St Genevieve des Bois;Epinay sur Orge
+C46;Epinay sur Orge;St Genevieve des Bois
+C46;Epinay sur Orge;Savigny sur Orge
+C46;Savigny sur Orge;Epinay sur Orge
+C46;Savigny sur Orge;Juvisy sur Orge
+C46;Juvisy sur Orge;Savigny sur Orge
+C46;Juvisy sur Orge;Athis Mons
+C46;Athis Mons;Juvisy sur Orge
+
+C8;Versailles Chantiers;Petit Jouy Les Loges
+C8;Petit Jouy Les Loges;Versailles Chantiers
+C8;Petit Jouy Les Loges;Jouy en josas
+C8;Jouy en josas;Petit Jouy Les Loges
+C8;Jouy en josas;Vauboyen
+C8;Vauboyen;Jouy en josas
+C8;Vauboyen;Bievres
+C8;Bievres;Vauboyen
+C8;Bievres;Igny
+C8;Igny;Bievres
+C8;Igny;Massy Palaiseau
+C8;Massy Palaiseau;Igny
+C8;Massy Palaiseau;Longjumeau
+C8;Longjumeau;Massy Palaiseau
+C8;Longjumeau;Chilly Mazarin
+C8;Chilly Mazarin;Longjumeau
+C8;Chilly Mazarin;Gravigny Balizy
+C8;Gravigny Balizy;Chilly Mazarin
+C8;Gravigny Balizy;Petit Vaux
+C8;Petit Vaux;Gravigny Balizy
+C8;Petit Vaux;Savigny sur Orge
+C8;Savigny sur Orge;Petit Vaux
+
+C4;Dourdan la foret;Dourdan
+C4;Dourdan;Dourdan la foret
+C4;Dourdan;Sermaise
+C4;Sermaise;Dourdan
+C4;Sermaise;St Cheron
+C4;St Cheron;Sermaise
+C4;St Cheron;Breuillet Village
+C4;Breuillet Village;St Cheron
+C4;Breuillet Village;Breullet Bruyeres le chatel
+C4;Breullet Bruyeres le chatel;Breuillet Village
+C4;Breullet Bruyeres le chatel;Egly
+C4;Egly;Breullet Bruyeres le chatel
+C4;Egly;Arpajon
+C4;Arpajon;Egly
+C4;Arpajon;La Norville St Germain Les Arpajon
+C4;La Norville St Germain Les Arpajon;Arpajon
+C4;La Norville St Germain Les Arpajon;Bretigny sur Orge
+C4;Bretigny sur Orge;La Norville St Germain Les Arpajon
+
+C6;St Martin d'Etampes;Etampes
+C6;Etampes;St Martin d'Etampes
+C6;Etampes;Etrechy
+C6;Etrechy;Etampes
+C6;Etrechy;Chamarande
+C6;Chamarande;Etrechy
+C6;Chamarande;Lardy
+C6;Lardy;Chamarande
+C6;Lardy;Bouray
+C6;Bouray;Lardy
+C6;Bouray;Marrolles en Hurepoix
+C6;Marrolles en Hurepoix;Bouray
+C6;Marrolles en Hurepoix;Bretigny sur Orge
+C6;Bretigny sur Orge;Marrolles en Hurepoix
+
+D1;Orry la Ville;La Borne Blanche
+D1;La Borne Blanche;Orry la Ville
+D1;La Borne Blanche;Survilliers Fosses
+D1;Survilliers Fosses;La Borne Blanche
+D1;Survilliers Fosses;Louvres
+D1;Louvres;Survilliers Fosses
+D1;Louvres;Les Noux
+D1;Les Noux;Louvres
+D1;Les Noux;Goussainville
+D1;Goussainville;Les Noux
+D1;Goussainville;Villiers le Bel Gonesse Amouville
+D1;Villiers le Bel Gonesse Amouville;Goussainville
+D1;Villiers le Bel Gonesse Amouville;Garges Sarcelles
+D1;Garges Sarcelles;Villiers le Bel Gonesse Amouville
+D1;Garges Sarcelles;Pierrefitte Stains
+D1;Pierrefitte Stains;Garges Sarcelles
+D1;Pierrefitte Stains;St Denis
+D1;St Denis;Pierrefitte Stains
+D1;St Denis;Stade de France St Denis
+D1;Stade de France St Denis;St Denis
+D1;Stade de France St Denis;Gare du Nord
+D1;Gare du Nord;Stade de France St Denis
+D1;Gare du Nord;Chatelet Les Halles
+D1;Chatelet Les Halles;Gare du Nord
+D1;Chatelet Les Halles;Gare de Lyon
+D1;Gare de Lyon;Chatelet Les Halles
+D1;Gare de Lyon;Maisons Alfort Alfortville
+D1;Maisons Alfort Alfortville;Gare de Lyon
+D1;Maisons Alfort Alfortville;Le Vert de Maisons
+D1;Le Vert de Maisons;Maisons Alfort Alfortville
+D1;Le Vert de Maisons;Villeneuve Pairie
+D1;Villeneuve Pairie;Le Vert de Maisons
+D1;Villeneuve Pairie;Villeneuve Triage
+D1;Villeneuve Triage;Villeneuve Pairie
+D1;Villeneuve Triage;Villeneuve St Georges
+D1;Villeneuve St Georges;Villeneuve Triage
+
+D2;Melun;La Mee sur Seine
+D2;La Mee sur Seine;Melun
+D2;La Mee sur Seine;Cesson
+D2;Cesson;La Mee sur Seine
+D2;Cesson;Savigny le Temple Nandy
+D2;Savigny le Temple Nandy;Cesson
+D2;Savigny le Temple Nandy;Lieusaint Moissy
+D2;Lieusaint Moissy;Savigny le Temple Nandy
+D2;Lieusaint Moissy;Combs la Ville Quincy
+D2;Combs la Ville Quincy;Lieusaint Moissy
+D2;Combs la Ville Quincy;Boussy St Antoine
+D2;Boussy St Antoine;Combs la Ville Quincy
+D2;Boussy St Antoine;Brunoy
+D2;Brunoy;Boussy St Antoine
+D2;Brunoy;Yerres
+D2;Yerres;Brunoy
+D2;Yerres;Montgeron Crosne
+D2;Montgeron Crosne;Yerres
+D2;Montgeron Crosne;Villeneuve St Georges
+D2;Villeneuve St Georges;Montgeron Crosne
+
+D4;Malesherbes (Loiret);Boigneville
+D4;Boigneville;Malesherbes (Loiret)
+D4;Boigneville;Buno Gironville
+D4;Buno Gironville;Boigneville
+D4;Buno Gironville;Maisse
+D4;Maisse;Buno Gironville
+D4;Maisse;Boutigny
+D4;Boutigny;Maisse
+D4;Boutigny;La ferte Alais
+D4;La ferte Alais;Boutigny
+D4;La ferte Alais;Ballancourt
+D4;Ballancourt;La ferte Alais
+D4;Ballancourt;Mennecy
+D4;Mennecy;Ballancourt
+D4;Mennecy;Moulin Galant
+D4;Moulin Galant;Mennecy
+D4;Moulin Galant;Corbeil Essonnes
+D4;Corbeil Essonnes;Moulin Galant
+D4;Corbeil Essonnes;Le Bras de Fer
+D4;Le Bras de Fer;Corbeil Essonnes
+D4;Le Bras de Fer;Evry Courcouronnnnes
+D4;Evry Courcouronnnnes;Le Bras de Fer
+D4;Evry Courcouronnnnes;Orangis Bois de l'Epine
+D4;Orangis Bois de l'Epine;Evry Courcouronnnnes
+D4;Orangis Bois de l'Epine;Grigny Centre
+D4;Grigny Centre;Orangis Bois de l'Epine
+D4;Grigny Centre;Viry Chatillon
+D4;Viry Chatillon;Grigny Centre
+D4;Viry Chatillon;Juvisy sur Orge
+D4;Juvisy sur Orge;Viry Chatillon
+D4;Juvisy sur Orge;Vigneux sur Seine
+D4;Vigneux sur Seine;Juvisy sur Orge
+D4;Vigneux sur Seine;Villeneuve St Georges
+D4;Villeneuve St Georges;Vigneux sur Seine
+
+
+D6;Corbeil Essonnes;Evry
+D6;Evry;Corbeil Essonnes
+D6;Evry;Grand Bourg
+D6;Grand Bourg;Evry
+D6;Grand Bourg;Ris Orangis
+D6;Ris Orangis;Grand Bourg
+D6;Ris Orangis;Viry Chatillon
+D6;Viry Chatillon;Ris Orangis
+
+E1;Haussmann St Lazare;Magenta
+E1;Magenta;Haussmann St Lazare
+E1;Magenta;Pantin
+E1;Pantin;Magenta
+E1;Pantin;Noisy le Sec
+E1;Noisy le Sec;Pantin
+
+W;Haussmann St Lazare;Saint Lazare
+W;Saint Lazare;Haussmann St Lazare
+W;Haussmann St Lazare;Havre Caumartin
+W;Havre Caumartin;Haussmann St Lazare
+W;Haussmann St Lazare;Saint Augustin
+W;Saint Augustin;Haussmann St Lazare
+W;Haussmann St Lazare;Opera
+W;Opera;Haussmann St Lazare
+
+E2;Chelles Gournay;Le Chenay Gagny
+E2;Le Chenay Gagny;Chelles Gournay
+E2;Le Chenay Gagny;Gagny
+E2;Gagny;Le Chenay Gagny
+E2;Gagny;Le Raincy Villemomble Montfermeil
+E2;Le Raincy Villemomble Montfermeil;Gagny
+E2;Le Raincy Villemomble Montfermeil;Bondy
+E2;Bondy;Le Raincy Villemomble Montfermeil
+E2;Bondy;Noisy le Sec
+E2;Noisy le Sec;Bondy
+
+E4;Tournan;Gretz Armainvilliers
+E4;Gretz Armainvilliers;Tournan
+E4;Gretz Armainvilliers;Ozoir la Ferriere
+E4;Ozoir la Ferriere;Gretz Armainvilliers
+E4;Ozoir la Ferriere;Roissy en Brie
+E4;Roissy en Brie;Ozoir la Ferriere
+E4;Roissy en Brie;Emerainville Pontault Combault
+E4;Emerainville Pontault Combault;Roissy en Brie
+E4;Emerainville Pontault Combault;Les Yvris Noisy le Grand
+E4;Les Yvris Noisy le Grand;Emerainville Pontault Combault
+E4;Les Yvris Noisy le Grand;Villiers sur Marne le Plessis Trevise
+E4;Villiers sur Marne le Plessis Trevise;Les Yvris Noisy le Grand
+E4;Villiers sur Marne le Plessis Trevise;Les Boullereaux Champigny
+E4;Les Boullereaux Champigny;Villiers sur Marne le Plessis Trevise
+E4;Les Boullereaux Champigny;Nogent Le Perreux
+E4;Nogent Le Perreux;Les Boullereaux Champigny
+E4;Nogent Le Perreux;Val de Fontenay
+E4;Val de Fontenay;Nogent Le Perreux
+E4;Val de Fontenay;Rosny sous Bois
+E4;Rosny sous Bois;Val de Fontenay
+E4;Rosny sous Bois;Rosny Bois Perrier
+E4;Rosny Bois Perrier;Rosny sous Bois
+E4;Rosny Bois Perrier;Noisy le Sec
+E4;Noisy le Sec;Rosny Bois Perrier
+
+M1;La Defense;Esplanade de La Defense
+M1;Esplanade de La Defense;La Defense
+M1;Esplanade de La Defense;Pont de Neuilly
+M1;Pont de Neuilly;Esplanade de La Defense
+M1;Pont de Neuilly;Les Sablons
+M1;Les Sablons;Pont de Neuilly
+M1;Les Sablons;Porte Maillot
+M1;Porte Maillot;Les Sablons
+M1;Porte Maillot;Argentine
+M1;Argentine;Porte Maillot
+M1;Argentine;Charles de Gaulle Etoile
+M1;Charles de Gaulle Etoile;Argentine
+M1;Charles de Gaulle Etoile;George V
+M1;George V;Charles de Gaulle Etoile
+M1;George V;Franklin Roosevelt
+M1;Franklin Roosevelt;George V
+M1;Franklin Roosevelt;Champs Elysees Clemenceau
+M1;Champs Elysees Clemenceau;Franklin Roosevelt
+M1;Champs Elysees Clemenceau;Concorde
+M1;Concorde;Champs Elysees Clemenceau
+M1;Concorde;Tuileries
+M1;Tuileries;Concorde
+M1;Tuileries;Palais Royal Musee du Louvre
+M1;Palais Royal Musee du Louvre;Tuileries
+M1;Palais Royal Musee du Louvre;Louvre Rivoli
+M1;Louvre Rivoli;Palais Royal Musee du Louvre
+M1;Louvre Rivoli;Chatelet
+M1;Chatelet;Louvre Rivoli
+M1;Chatelet;Hotel de Ville
+M1;Hotel de Ville;Chatelet
+M1;Hotel de Ville;St Paul
+M1;St Paul;Hotel de Ville
+M1;St Paul;Bastille
+M1;Bastille;St Paul
+M1;Bastille;Gare de Lyon
+M1;Gare de Lyon;Bastille
+M1;Gare de Lyon;Reullly Diderot
+M1;Reullly Diderot;Gare de Lyon
+M1;Reullly Diderot;Nation
+M1;Nation;Reullly Diderot
+M1;Nation;Porte de Vincennes
+M1;Porte de Vincennes;Nation
+M1;Porte de Vincennes;Saint Mande
+M1;Saint Mande;Porte de Vincennes
+M1;Saint Mande;Berault
+M1;Berault;Saint Mande
+M1;Berault;Chateau de Vincennes
+M1;Chateau de Vincennes;Berault
+
+M10;Boulogne Pont de St Cloud;Boulogne Jean Jaures
+M10;Boulogne Jean Jaures;Boulogne Pont de St Cloud
+M10;Boulogne Jean Jaures;Michel Ange Molitor
+M10;Michel Ange Molitor;Chardon Lagache
+M10;Chardon Lagache;Mirabeau
+M10;Mirabeau;Javel Andre Citroen
+M10;Javel Andre Citroen;Charles michels
+M10;Javel Andre Citroen;Eglise d'Auteuil
+M10;Eglise d'Auteuil;Michel Ange Auteuil
+M10;Michel Ange Auteuil;porte d'Auteuil
+M10;porte d'Auteuil;Boulogne Jean Jaures
+M10;Charles michels;Javel Andre Citroen
+M10;Charles michels;Avenue Emile Zola
+M10;Avenue Emile Zola;Charles michels
+M10;Avenue Emile Zola;La Motte Picquet Grenelle
+M10;La Motte Picquet Grenelle;Avenue Emile Zola
+M10;La Motte Picquet Grenelle;Segur
+M10;Segur;La Motte Picquet Grenelle
+M10;Segur;Duroc
+M10;Duroc;Segur
+M10;Duroc;Vaneau
+M10;Vaneau;Duroc
+M10;Vaneau;Sevres Babylone
+M10;Sevres Babylone;Vaneau
+M10;Sevres Babylone;Mabillon
+M10;Mabillon;Sevres Babylone
+M10;Mabillon;Odeon
+M10;Odeon;Mabillon
+M10;Odeon;Cluny.La Sorbonne
+M10;Cluny.La Sorbonne;Odeon
+M10;Cluny.La Sorbonne;Maubert Mutualite
+M10;Maubert Mutualite;Cluny.La Sorbonne
+M10;Maubert Mutualite;Cardinal Lemoine
+M10;Cardinal Lemoine;Maubert Mutualite
+M10;Cardinal Lemoine;Jussieu
+M10;Jussieu;Cardinal Lemoine
+M10;Jussieu;Gare d'Austerlitz
+M10;Gare d'Austerlitz;Jussieu
+M10;porte d'Auteuil;Michel Ange Auteuil
+M10;Michel Ange Auteuil;porte d'Auteuil
+M10;Michel Ange Auteuil;Eglise d'Auteuil
+M10;Eglise d'Auteuil;Michel Ange Auteuil
+
+M11;Chatelet;Hotel de Ville
+M11;Hotel de Ville;Chatelet
+M11;Hotel de Ville;Rambuteau
+M11;Rambuteau;Hotel de Ville
+M11;Rambuteau;Arts et Metiers
+M11;Arts et Metiers;Rambuteau
+M11;Arts et Metiers;Republique
+M11;Republique;Arts et Metiers
+M11;Republique;Goncourt
+M11;Goncourt;Republique
+M11;Goncourt;Belleville
+M11;Belleville;Goncourt
+M11;Belleville;Pyrenees
+M11;Pyrenees;Belleville
+M11;Pyrenees;Jourdain
+M11;Jourdain;Pyrenees
+M11;Jourdain;Place des Fetes
+M11;Place des Fetes;Jourdain
+M11;Place des Fetes;Telegraphe
+M11;Telegraphe;Place des Fetes
+M11;Telegraphe;Porte des Lilas
+M11;Porte des Lilas;Telegraphe
+M11;Porte des Lilas;Mairie des Lilas
+M11;Mairie des Lilas;Porte des Lilas
+
+M12;Porte de la Chapelle;Marx Dormoy
+M12;Marx Dormoy;Porte de la Chapelle
+M12;Marx Dormoy;Marcadet Poissonniers
+M12;Marcadet Poissonniers;Marx Dormoy
+M12;Marcadet Poissonniers;Jules Joffrin
+M12;Jules Joffrin;Marcadet Poissonniers
+M12;Jules Joffrin;Lamarck Caulaincourt
+M12;Lamarck Caulaincourt;Jules Joffrin
+M12;Lamarck Caulaincourt;Abbesses
+M12;Abbesses;Lamarck Caulaincourt
+M12;Abbesses;Pigalle
+M12;Pigalle;Abbesses
+M12;Pigalle;Saint Georges
+M12;Saint Georges;Pigalle
+M12;Saint Georges;Notre Dame de Lorette
+M12;Notre Dame de Lorette;Saint Georges
+M12;Notre Dame de Lorette;Trinite d4estienne d'Orves
+M12;Trinite d4estienne d'Orves;Notre Dame de Lorette
+M12;Trinite d4estienne d'Orves;Saint Lazare
+M12;Saint Lazare;Trinite d4estienne d'Orves
+M12;Saint Lazare;Madeleine
+M12;Madeleine;Saint Lazare
+M12;Madeleine;Concorde
+M12;Concorde;Madeleine
+M12;Concorde;Assemblee Nationale
+M12;Assemblee Nationale;Concorde
+M12;Assemblee Nationale;Solferino
+M12;Solferino;Assemblee Nationale
+M12;Solferino;Rue du Bac
+M12;Rue du Bac;Solferino
+M12;Rue du Bac;Sevres Babylone
+M12;Sevres Babylone;Rue du Bac
+M12;Sevres Babylone;Rennes
+M12;Rennes;Sevres Babylone
+M12;Rennes;Notre Dame des Champs
+M12;Notre Dame des Champs;Rennes
+M12;Notre Dame des Champs;Montparnasse Bienvenue
+M12;Montparnasse Bienvenue;Notre Dame des Champs
+M12;Montparnasse Bienvenue;Falguiere
+M12;Falguiere;Montparnasse Bienvenue
+M12;Falguiere;Pasteur
+M12;Pasteur;Falguiere
+M12;Pasteur;Volontaires
+M12;Volontaires;Pasteur
+M12;Volontaires;Vaugirard
+M12;Vaugirard;Volontaires
+M12;Vaugirard;Convention
+M12;Convention;Vaugirard
+M12;Convention;Porte de Versailles
+M12;Porte de Versailles;Convention
+M12;Porte de Versailles;Corentin Celton
+M12;Corentin Celton;Porte de Versailles
+M12;Corentin Celton;Mairie d'Issy
+M12;Mairie d'Issy;Corentin Celton
+
+M13;Saint Denis Universite;Basilique St Denis
+M13;Basilique St Denis;Saint Denis Universite
+M13;Basilique St Denis;Saint Denis Porte de Paris
+M13;Saint Denis Porte de Paris;Basilique St Denis
+M13;Saint Denis Porte de Paris;Carrefour Pleyel
+M13;Carrefour Pleyel;Saint Denis Porte de Paris
+M13;Carrefour Pleyel;Mairie de St Ouen
+M13;Mairie de St Ouen;Carrefour Pleyel
+M13;Mairie de St Ouen;Garibaldi
+M13;Garibaldi;Mairie de St Ouen
+M13;Garibaldi;Porte de St Ouen
+M13;Porte de St Ouen;Garibaldi
+M13;Porte de St Ouen;Guy Moquet
+M13;Guy Moquet;Porte de St Ouen
+M13;Guy Moquet;La Fourche
+M13;La Fourche;Guy Moquet
+M13;La Fourche;Brochant
+M13;Brochant;La Fourche
+M13;La Fourche;Place de Clichy
+M13;Place de Clichy;La Fourche
+M13;Place de Clichy;Liege
+M13;Liege;Place de Clichy
+M13;Liege;Saint Lazare
+M13;Saint Lazare;Liege
+M13;Saint Lazare;Miromesnil
+M13;Miromesnil;Saint Lazare
+M13;Miromesnil;Champs Elysees Clemenceau
+M13;Champs Elysees Clemenceau;Miromesnil
+M13;Champs Elysees Clemenceau;Invalides
+M13;Invalides;Champs Elysees Clemenceau
+M13;Invalides;Varenne
+M13;Varenne;Invalides
+M13;Varenne;St Francois Xavier
+M13;St Francois Xavier;Varenne
+M13;St Francois Xavier;Duroc
+M13;Duroc;St Francois Xavier
+M13;Duroc;Montparnasse Bienvenue
+M13;Montparnasse Bienvenue;Duroc
+M13;Montparnasse Bienvenue;Gaite
+M13;Gaite;Montparnasse Bienvenue
+M13;Gaite;Permety
+M13;Permety;Gaite
+M13;Permety;Plaisance
+M13;Plaisance;Permety
+M13;Plaisance;Porte de Vanves
+M13;Porte de Vanves;Plaisance
+M13;Porte de Vanves;Malakoff Plateau de Vanves
+M13;Malakoff Plateau de Vanves;Porte de Vanves
+M13;Malakoff Plateau de Vanves;Malakoff Rue Etienne Dolet
+M13;Malakoff Rue Etienne Dolet;Malakoff Plateau de Vanves
+M13;Malakoff Rue Etienne Dolet;Chatillon Montrouge
+M13;Chatillon Montrouge;Malakoff Rue Etienne Dolet
+M13;Asnieres Gennevilliers Les Courtilles;Les Agnettes
+M13;Les Agnettes;Asnieres Gennevilliers Les Courtilles
+M13;Les Agnettes;Gabriel Peri
+M13;Gabriel Peri;Les Agnettes
+M13;Gabriel Peri;Mairie de Clichy
+M13;Mairie de Clichy;Gabriel Peri
+M13;Mairie de Clichy;Porte de Clichy
+M13;Porte de Clichy;Mairie de Clichy
+M13;Porte de Clichy;Brochant
+M13;Brochant;Porte de Clichy
+
+M14;Saint Lazare;Madeleine
+M14;Madeleine;Saint Lazare
+M14;Madeleine;Pyramides
+M14;Pyramides;Madeleine
+M14;Pyramides;Chatelet
+M14;Chatelet;Pyramides
+M14;Chatelet;Gare de Lyon
+M14;Gare de Lyon;Chatelet
+M14;Gare de Lyon;Bercy
+M14;Bercy;Gare de Lyon
+M14;Bercy;Cour Saint Emillion
+M14;Cour Saint Emillion;Bercy
+M14;Cour Saint Emillion;Bibliotheque Francois Mitterrand
+M14;Bibliotheque Francois Mitterrand;Cour Saint Emillion
+M14;Bibliotheque Francois Mitterrand;Olympiades
+M14;Olympiades;Bibliotheque Francois Mitterrand
+
+M2;Porte Dauphine;Victor Hugo
+M2;Victor Hugo;Porte Dauphine
+M2;Victor Hugo;Charles de Gaulle Etoile
+M2;Charles de Gaulle Etoile;Victor Hugo
+M2;Charles de Gaulle Etoile;Termes
+M2;Termes;Charles de Gaulle Etoile
+M2;Termes;Courcelles
+M2;Courcelles;Termes
+M2;Courcelles;Monceau
+M2;Monceau;Courcelles
+M2;Monceau;Villiers
+M2;Villiers;Monceau
+M2;Villiers;Rome
+M2;Rome;Villiers
+M2;Rome;Place de Clichy
+M2;Place de Clichy;Rome
+M2;Place de Clichy;Blanche
+M2;Blanche;Place de Clichy
+M2;Blanche;Pigalle
+M2;Pigalle;Blanche
+M2;Pigalle;Anvers
+M2;Anvers;Pigalle
+M2;Anvers;Barbes Rochechouart
+M2;Barbes Rochechouart;Anvers
+M2;Barbes Rochechouart;La Chapelle
+M2;La Chapelle;Barbes Rochechouart
+M2;La Chapelle;Stalingrad
+M2;Stalingrad;La Chapelle
+M2;Stalingrad;Jaures
+M2;Jaures;Stalingrad
+M2;Jaures;Colonnel Fabien
+M2;Colonnel Fabien;Jaures
+M2;Colonnel Fabien;Belleville
+M2;Belleville;Colonnel Fabien
+M2;Belleville;Coucouronnes
+M2;Coucouronnes;Belleville
+M2;Coucouronnes;Melilmontant
+M2;Melilmontant;Coucouronnes
+M2;Melilmontant;Pere Lachaise
+M2;Pere Lachaise;Melilmontant
+M2;Pere Lachaise;Philippe Auguste
+M2;Philippe Auguste;Pere Lachaise
+M2;Philippe Auguste;Alexandre Dumas
+M2;Alexandre Dumas;Philippe Auguste
+M2;Alexandre Dumas;Avron
+M2;Avron;Alexandre Dumas
+M2;Avron;Nation
+M2;Nation;Avron
+
+M3;Pont de Levallois Becon;Anatole France
+M3;Anatole France;Pont de Levallois Becon
+M3;Anatole France;Louise Michel
+M3;Louise Michel;Anatole France
+M3;Louise Michel;Porte de Champerret
+M3;Porte de Champerret;Louise Michel
+M3;Porte de Champerret;Pereire
+M3;Pereire;Porte de Champerret
+M3;Pereire;Wagram
+M3;Wagram;Pereire
+M3;Wagram;Malesherbes
+M3;Malesherbes;Wagram
+M3;Malesherbes;Villiers
+M3;Villiers;Malesherbes
+M3;Villiers;Europe
+M3;Europe;Villiers
+M3;Europe;Saint Lazare
+M3;Saint Lazare;Europe
+M3;Saint Lazare;Havre Caumartin
+M3;Havre Caumartin;Saint Lazare
+M3;Havre Caumartin;Opera
+M3;Opera;Havre Caumartin
+M3;Opera;Quatre Septembre
+M3;Quatre Septembre;Opera
+M3;Quatre Septembre;Bourse
+M3;Bourse;Quatre Septembre
+M3;Bourse;Sentier
+M3;Sentier;Bourse
+M3;Sentier;Reaumur Sebastopol
+M3;Reaumur Sebastopol;Sentier
+M3;Reaumur Sebastopol;Arts et Metiers
+M3;Arts et Metiers;Reaumur Sebastopol
+M3;Arts et Metiers;Temple
+M3;Temple;Arts et Metiers
+M3;Temple;Republique
+M3;Republique;Temple
+M3;Republique;Rue Saint Maur
+M3;Rue Saint Maur;Republique
+M3;Rue Saint Maur;Pere Lachaise
+M3;Pere Lachaise;Rue Saint Maur
+M3;Pere Lachaise;Gambetta
+M3;Gambetta;Pere Lachaise
+M3;Gambetta;Porte de Bagnolet
+M3;Porte de Bagnolet;Gambetta
+M3;Porte de Bagnolet;Gallieni
+M3;Gallieni;Porte de Bagnolet
+
+M3 bis;Porte des Lilas;Saint Fargeau
+M3 bis;Saint Fargeau;Porte des Lilas
+M3 bis;Saint Fargeau;Pelleport
+M3 bis;Pelleport;Saint Fargeau
+M3 bis;Pelleport;Gambetta
+M3 bis;Gambetta;Pelleport
+
+M4;Porte de Clignancourt;Simplon
+M4;Simplon;Porte de Clignancourt
+M4;Simplon;Marcadet Poissonniers
+M4;Marcadet Poissonniers;Simplon
+M4;Marcadet Poissonniers;Chateau Rouge
+M4;Chateau Rouge;Marcadet Poissonniers
+M4;Chateau Rouge;Barbes Rochechouart
+M4;Barbes Rochechouart;Chateau Rouge
+M4;Barbes Rochechouart;Gare du Nord
+M4;Gare du Nord;Barbes Rochechouart
+M4;Gare du Nord;Gare de l'Est
+M4;Gare de l'Est;Gare du Nord
+M4;Gare de l'Est;Chateau d'Eau
+M4;Chateau d'Eau;Gare de l'Est
+M4;Chateau d'Eau;Strasbourg St Denis
+M4;Strasbourg St Denis;Chateau d'Eau
+M4;Strasbourg St Denis;Reaumur Sebastopol
+M4;Reaumur Sebastopol;Strasbourg St Denis
+M4;Reaumur Sebastopol;Etienne Marcel
+M4;Etienne Marcel;Reaumur Sebastopol
+M4;Etienne Marcel;Les Halles
+M4;Les Halles;Etienne Marcel
+M4;Les Halles;Chatelet
+M4;Chatelet;Les Halles
+M4;Chatelet;Cite
+M4;Cite;Chatelet
+M4;Cite;Saint Michel
+M4;Saint Michel;Cite
+M4;Saint Michel;Odeon
+M4;Odeon;Saint Michel
+M4;Odeon;St Germain des Pres
+M4;St Germain des Pres;Odeon
+M4;St Germain des Pres;St Sulpice
+M4;St Sulpice;St Germain des Pres
+M4;St Sulpice;Sainte Placide
+M4;Sainte Placide;St Sulpice
+M4;Sainte Placide;Montparnasse Bienvenue
+M4;Montparnasse Bienvenue;Sainte Placide
+M4;Montparnasse Bienvenue;Vavin
+M4;Vavin;Montparnasse Bienvenue
+M4;Vavin;Raspail
+M4;Raspail;Vavin
+M4;Raspail;Denfert Rochereau
+M4;Denfert Rochereau;Raspail
+M4;Denfert Rochereau;Mouton Duvernet
+M4;Mouton Duvernet;Denfert Rochereau
+M4;Mouton Duvernet;Alesia
+M4;Alesia;Mouton Duvernet
+M4;Alesia;Porte d'Orleans
+M4;Porte d'Orleans;Alesia
+
+M5;Bobigny Pablo Picasso;Bobigny Pantin Raymond Queneau
+M5;Bobigny Pantin Raymond Queneau;Bobigny Pablo Picasso
+M5;Bobigny Pantin Raymond Queneau;Eglise de Pantin
+M5;Eglise de Pantin;Bobigny Pantin Raymond Queneau
+M5;Eglise de Pantin;Hoche
+M5;Hoche;Eglise de Pantin
+M5;Hoche;Porte de Pantin
+M5;Porte de Pantin;Hoche
+M5;Porte de Pantin;Ourcq
+M5;Ourcq;Porte de Pantin
+M5;Ourcq;Laumiere
+M5;Laumiere;Ourcq
+M5;Laumiere;Jaures
+M5;Jaures;Laumiere
+M5;Jaures;Stalingrad
+M5;Stalingrad;Jaures
+M5;Stalingrad;Gare du Nord
+M5;Gare du Nord;Stalingrad
+M5;Gare du Nord;Gare de l'Est
+M5;Gare de l'Est;Gare du Nord
+M5;Gare de l'Est;Jacques Bonsergent
+M5;Jacques Bonsergent;Gare de l'Est
+M5;Jacques Bonsergent;Republique
+M5;Republique;Jacques Bonsergent
+M5;Republique;Oberkampf
+M5;Oberkampf;Republique
+M5;Oberkampf;Richard Lenoir
+M5;Richard Lenoir;Oberkampf
+M5;Richard Lenoir;Breguet Sabin
+M5;Breguet Sabin;Richard Lenoir
+M5;Breguet Sabin;Bastille
+M5;Bastille;Breguet Sabin
+M5;Bastille;Quai de la Rapee
+M5;Quai de la Rapee;Bastille
+M5;Quai de la Rapee;Gare d'Austerlitz
+M5;Gare d'Austerlitz;Quai de la Rapee
+M5;Gare d'Austerlitz;Saint Marcel
+M5;Saint Marcel;Gare d'Austerlitz
+M5;Saint Marcel;Campo Formio
+M5;Campo Formio;Saint Marcel
+M5;Campo Formio;Place d'Italie
+M5;Place d'Italie;Campo Formio
+
+M6;Charles de Gaulle Etoile;Kleber
+M6;Kleber;Charles de Gaulle Etoile
+M6;Kleber;Boissiere
+M6;Boissiere;Kleber
+M6;Boissiere;Trocadero
+M6;Trocadero;Boissiere
+M6;Trocadero;Passy
+M6;Passy;Trocadero
+M6;Passy;Bir Hakeim
+M6;Bir Hakeim;Passy
+M6;Bir Hakeim;Dupleix
+M6;Dupleix;Bir Hakeim
+M6;Dupleix;La Motte Picquet Grenelle
+M6;La Motte Picquet Grenelle;Dupleix
+M6;La Motte Picquet Grenelle;Cambrone
+M6;Cambrone;La Motte Picquet Grenelle
+M6;Cambrone;Sevres Lecourbe
+M6;Sevres Lecourbe;Cambrone
+M6;Sevres Lecourbe;Pasteur
+M6;Pasteur;Sevres Lecourbe
+M6;Pasteur;Montparnasse Bienvenue
+M6;Montparnasse Bienvenue;Pasteur
+M6;Montparnasse Bienvenue;Edgar Quinet
+M6;Edgar Quinet;Montparnasse Bienvenue
+M6;Edgar Quinet;Raspail
+M6;Raspail;Edgar Quinet
+M6;Raspail;Denfert Rochereau
+M6;Denfert Rochereau;Raspail
+M6;Denfert Rochereau;Saint Jacques
+M6;Saint Jacques;Denfert Rochereau
+M6;Saint Jacques;Classiere
+M6;Classiere;Saint Jacques
+M6;Classiere;Corvisart
+M6;Corvisart;Classiere
+M6;Corvisart;Place d'Italie
+M6;Place d'Italie;Corvisart
+M6;Place d'Italie;Nationale
+M6;Nationale;Place d'Italie
+M6;Nationale;Chevaleret
+M6;Chevaleret;Nationale
+M6;Chevaleret;Quai de la Gare
+M6;Quai de la Gare;Chevaleret
+M6;Quai de la Gare;Bercy
+M6;Bercy;Quai de la Gare
+M6;Bercy;Dugommier
+M6;Dugommier;Bercy
+M6;Dugommier;Daumesnil
+M6;Daumesnil;Dugommier
+M6;Daumesnil;Bel Air
+M6;Bel Air;Daumesnil
+M6;Bel Air;Picpus
+M6;Picpus;Bel Air
+M6;Picpus;Nation
+M6;Nation;Picpus
+
+M7;La Courneuve 8 Mai 1945;Fort d'Aubervilliers
+M7;Fort d'Aubervilliers;La Courneuve 8 Mai 1945
+M7;Fort d'Aubervilliers;Aubervilliers Pantin Quatre chemins
+M7;Aubervilliers Pantin Quatre chemins;Fort d'Aubervilliers
+M7;Aubervilliers Pantin Quatre chemins;Porte de la Vilette
+M7;Porte de la Vilette;Aubervilliers Pantin Quatre chemins
+M7;Porte de la Vilette;Corentin Cariou
+M7;Corentin Cariou;Porte de la Vilette
+M7;Corentin Cariou;Crimee
+M7;Crimee;Corentin Cariou
+M7;Crimee;Riquet
+M7;Riquet;Crimee
+M7;Riquet;Stalingrad
+M7;Stalingrad;Riquet
+M7;Stalingrad;Louis Blanc
+M7;Louis Blanc;Stalingrad
+M7;Louis Blanc;Chateau Landon
+M7;Chateau Landon;Louis Blanc
+M7;Chateau Landon;Gare de l'Est
+M7;Gare de l'Est;Chateau Landon
+M7;Gare de l'Est;Poissonniere
+M7;Poissonniere;Gare de l'Est
+M7;Poissonniere;Cadet
+M7;Cadet;Poissonniere
+M7;Cadet;Le Peletier
+M7;Le Peletier;Cadet
+M7;Le Peletier;Chaussee d'Antin La Fayette
+M7;Chaussee d'Antin La Fayette;Le Peletier
+M7;Chaussee d'Antin La Fayette;Opera
+M7;Opera;Chaussee d'Antin La Fayette
+M7;Opera;Pyramides
+M7;Pyramides;Opera
+M7;Pyramides;Palais Royal Musee du Louvre
+M7;Palais Royal Musee du Louvre;Pyramides
+M7;Palais Royal Musee du Louvre;Pont Neuf
+M7;Pont Neuf;Palais Royal Musee du Louvre
+M7;Pont Neuf;Chatelet
+M7;Chatelet;Pont Neuf
+M7;Chatelet;Pont Marie
+M7;Pont Marie;Chatelet
+M7;Pont Marie;Sully Morland
+M7;Sully Morland;Pont Marie
+M7;Sully Morland;Jussieu
+M7;Jussieu;Sully Morland
+M7;Jussieu;Place Monge
+M7;Place Monge;Jussieu
+M7;Place Monge;Censier Daubenton
+M7;Censier Daubenton;Place Monge
+M7;Censier Daubenton;Les Gobelins
+M7;Les Gobelins;Censier Daubenton
+M7;Les Gobelins;Place d'Italie
+M7;Place d'Italie;Les Gobelins
+M7;Place d'Italie;Tolbiac
+M7;Tolbiac;Place d'Italie
+M7;Tolbiac;Maison Blanche
+M7;Maison Blanche;Tolbiac
+M7;Maison Blanche;Porte d'Italie
+M7;Porte d'Italie;Maison Blanche
+M7;Porte d'Italie;Porte de Choisy
+M7;Porte de Choisy;Porte d'Italie
+M7;Porte de Choisy;Porte d'Ivry
+M7;Porte d'Ivry;Porte de Choisy
+M7;Porte d'Ivry;Pierre Curie
+M7;Pierre Curie;Porte d'Ivry
+M7;Pierre Curie;Mairie d'Ivry
+M7;Mairie d'Ivry;Pierre Curie
+M7;Maison Blanche;Le Kremlin Bicetre
+M7;Le Kremlin Bicetre;Maison Blanche
+M7;Le Kremlin Bicetre;Villejuif Leo Lagrange
+M7;Villejuif Leo Lagrange;Le Kremlin Bicetre
+M7;Villejuif Leo Lagrange;Villejuif Paul Vaillant Couturier
+M7;Villejuif Paul Vaillant Couturier;Villejuif Leo Lagrange
+M7;Villejuif Paul Vaillant Couturier;Villejuif Louis Aragon
+M7;Villejuif Louis Aragon;Villejuif Paul Vaillant Couturier
+
+M7 bis;Louis Blanc;Jaures
+M7 bis;Jaures;Louis Blanc
+M7 bis;Jaures;Bolivar
+M7 bis;Bolivar;Jaures
+M7 bis;Bolivar;Buttes Chaumont
+M7 bis;Buttes Chaumont;Bolivar
+M7 bis;Buttes Chaumont;Botzaris
+M7 bis;Botzaris;Buttes Chaumont
+M7 bis;Botzaris;Place des Fetes
+M7 bis;Place des Fetes;Pre St Gervais
+M7 bis;Pre St Gervais;Danube
+M7 bis;Danube;Botzaris
+
+M8;Balard;Lourmel
+M8;Lourmel;Balard
+M8;Lourmel;Bourcicaut
+M8;Bourcicaut;Lourmel
+M8;Bourcicaut;Felix Faure
+M8;Felix Faure;Bourcicaut
+M8;Felix Faure;Commerce
+M8;Commerce;Felix Faure
+M8;Commerce;La Motte Picquet Grenelle
+M8;La Motte Picquet Grenelle;Commerce
+M8;La Motte Picquet Grenelle;Ecole Militaire
+M8;Ecole Militaire;La Motte Picquet Grenelle
+M8;Ecole Militaire;La Tour Maubourg
+M8;La Tour Maubourg;Ecole Militaire
+M8;La Tour Maubourg;Invalides
+M8;Invalides;La Tour Maubourg
+M8;Invalides;Concorde
+M8;Concorde;Invalides
+M8;Concorde;Madeleine
+M8;Madeleine;Concorde
+M8;Madeleine;Opera
+M8;Opera;Madeleine
+M8;Opera;Richelieu Drouot
+M8;Richelieu Drouot;Opera
+M8;Richelieu Drouot;Grands Boulevards
+M8;Grands Boulevards;Richelieu Drouot
+M8;Grands Boulevards;Bonne Nouvelle
+M8;Bonne Nouvelle;Grands Boulevards
+M8;Bonne Nouvelle;Strasbourg St Denis
+M8;Strasbourg St Denis;Bonne Nouvelle
+M8;Strasbourg St Denis;Republique
+M8;Republique;Strasbourg St Denis
+M8;Republique;Filles du Calvaire
+M8;Filles du Calvaire;Republique
+M8;Filles du Calvaire;Saint Sebastien Froissart
+M8;Saint Sebastien Froissart;Filles du Calvaire
+M8;Saint Sebastien Froissart;Chemin vert
+M8;Chemin vert;Saint Sebastien Froissart
+M8;Chemin vert;Bastille
+M8;Bastille;Chemin vert
+M8;Bastille;Ledru Rollin
+M8;Ledru Rollin;Bastille
+M8;Ledru Rollin;Faidherbe Chaligny
+M8;Faidherbe Chaligny;Ledru Rollin
+M8;Faidherbe Chaligny;Reuilly Diderot
+M8;Reuilly Diderot;Faidherbe Chaligny
+M8;Reuilly Diderot;Montgallet
+M8;Montgallet;Reuilly Diderot
+M8;Montgallet;Daumesnil
+M8;Daumesnil;Montgallet
+M8;Daumesnil;Michel Bizot
+M8;Michel Bizot;Daumesnil
+M8;Michel Bizot;Porte Doree
+M8;Porte Doree;Michel Bizot
+M8;Porte Doree;Porte de Charenton
+M8;Porte de Charenton;Porte Doree
+M8;Porte de Charenton;Liberte
+M8;Liberte;Porte de Charenton
+M8;Liberte;Charenton Ecoles
+M8;Charenton Ecoles;Liberte
+M8;Charenton Ecoles;Ecole Veterinaire Maisons Alfort
+M8;Ecole Veterinaire Maisons Alfort;Charenton Ecoles
+M8;Ecole Veterinaire Maisons Alfort;Maisons Alfort Stade
+M8;Maisons Alfort Stade;Ecole Veterinaire Maisons Alfort
+M8;Maisons Alfort Stade;Maisons Alfort Les Juilliottes
+M8;Maisons Alfort Les Juilliottes;Maisons Alfort Stade
+M8;Maisons Alfort Les Juilliottes;Creteil l'Echat
+M8;Creteil l'Echat;Maisons Alfort Les Juilliottes
+M8;Creteil l'Echat;Creteil Universite
+M8;Creteil Universite;Creteil l'Echat
+M8;Creteil Universite;Creteil Prefecture
+M8;Creteil Prefecture;Creteil Universite
+M8;Creteil Prefecture;Pointe du Lac
+M8;Pointe du Lac;Creteil Prefecture
+
+M9;Pont de Sevres;Billancourt
+M9;Billancourt;Pont de Sevres
+M9;Billancourt;Marcel Sembat
+M9;Marcel Sembat;Billancourt
+M9;Marcel Sembat;Porte de St Cloud
+M9;Porte de St Cloud;Marcel Sembat
+M9;Porte de St Cloud;Exelmans
+M9;Exelmans;Porte de St Cloud
+M9;Exelmans;Michel Ange Molitor
+M9;Michel Ange Molitor;Exelmans
+M9;Michel Ange Molitor;Michel Ange Auteuil
+M9;Michel Ange Auteuil;Michel Ange Molitor
+M9;Michel Ange Auteuil;Jasmin
+M9;Jasmin;Michel Ange Auteuil
+M9;Jasmin;Ranelagh
+M9;Ranelagh;Jasmin
+M9;Ranelagh;La Muette
+M9;La Muette;Ranelagh
+M9;La Muette;Rue de la Pompe
+M9;Rue de la Pompe;La Muette
+M9;Rue de la Pompe;Trocadero
+M9;Trocadero;Rue de la Pompe
+M9;Trocadero;Iena
+M9;Iena;Trocadero
+M9;Iena;Alma Marceau
+M9;Alma Marceau;Iena
+M9;Alma Marceau;Franklin Roosevelt
+M9;Franklin Roosevelt;Alma Marceau
+M9;Franklin Roosevelt;Saint Philippe du Roule
+M9;Saint Philippe du Roule;Franklin Roosevelt
+M9;Saint Philippe du Roule;Miromesnil
+M9;Miromesnil;Saint Philippe du Roule
+M9;Miromesnil;Saint Augustin
+M9;Saint Augustin;Miromesnil
+M9;Saint Augustin;Havre Caumartin
+M9;Havre Caumartin;Saint Augustin
+M9;Havre Caumartin;Chaussee d'Antin La Fayette
+M9;Chaussee d'Antin La Fayette;Havre Caumartin
+M9;Chaussee d'Antin La Fayette;Richelieu Drouot
+M9;Richelieu Drouot;Chaussee d'Antin La Fayette
+M9;Richelieu Drouot;Grands Boulevards
+M9;Grands Boulevards;Richelieu Drouot
+M9;Grands Boulevards;Bonne Nouvelle
+M9;Bonne Nouvelle;Grands Boulevards
+M9;Bonne Nouvelle;Strasbourg St Denis
+M9;Strasbourg St Denis;Bonne Nouvelle
+M9;Strasbourg St Denis;Republique
+M9;Republique;Strasbourg St Denis
+M9;Republique;Oberkampf
+M9;Oberkampf;Republique
+M9;Oberkampf;Saint Amboise
+M9;Saint Amboise;Oberkampf
+M9;Saint Amboise;Voltaire
+M9;Voltaire;Saint Amboise
+M9;Voltaire;Charonne
+M9;Charonne;Voltaire
+M9;Charonne;Rue des Boulets
+M9;Rue des Boulets;Charonne
+M9;Rue des Boulets;Nation
+M9;Nation;Rue des Boulets
+M9;Nation;Buzenval
+M9;Buzenval;Nation
+M9;Buzenval;Maraichers
+M9;Maraichers;Buzenval
+M9;Maraichers;Porte de Montreuil
+M9;Porte de Montreuil;Maraichers
+M9;Porte de Montreuil;Robespierre
+M9;Robespierre;Porte de Montreuil
+M9;Robespierre;Croix de Chavaux
+M9;Croix de Chavaux;Robespierre
+M9;Croix de Chavaux;Mairie de Montreuil
+M9;Mairie de Montreuil;Croix de Chavaux
+
+T1;St Denis;Theatre Gerard philippe
+T1;Theatre Gerard philippe;St Denis
+T1;Theatre Gerard philippe;Marche St Denis
+T1;Marche St Denis;Theatre Gerard philippe
+T1;Marche St Denis;Basilique St Denis
+T1;Basilique St Denis;Marche St Denis
+T1;Basilique St Denis;Cimetiere St Denis
+T1;Cimetiere St Denis;Basilique St Denis
+T1;Cimetiere St Denis;Hopital Delafontaine
+T1;Hopital Delafontaine;Cimetiere St Denis
+T1;Hopital Delafontaine;Cosmonautes
+T1;Cosmonautes;Hopital Delafontaine
+T1;Cosmonautes;La Courneuve 6 Routes
+T1;La Courneuve 6 Routes;Cosmonautes
+T1;La Courneuve 6 Routes;Hotel de ville de La Courneuve
+T1;Hotel de ville de La Courneuve;La Courneuve 6 Routes
+T1;Hotel de ville de La Courneuve;Stade Geo Andre
+T1;Stade Geo Andre;Hotel de ville de La Courneuve
+T1;Stade Geo Andre;Danton
+T1;Danton;Stade Geo Andre
+T1;Danton;La Courneuve 8 Mai 1945
+T1;La Courneuve 8 Mai 1945;Danton
+T1;La Courneuve 8 Mai 1945;Maurice Lachatre
+T1;Maurice Lachatre;La Courneuve 8 Mai 1945
+T1;Maurice Lachatre;Drancy Avenir
+T1;Drancy Avenir;Maurice Lachatre
+T1;Drancy Avenir;Hopital avicenne
+T1;Hopital avicenne;Drancy Avenir
+T1;Hopital avicenne;Gaston Roulaud
+T1;Gaston Roulaud;Hopital avicenne
+T1;Gaston Roulaud;Escadrille Normandie Niemen
+T1;Escadrille Normandie Niemen;Gaston Roulaud
+T1;Escadrille Normandie Niemen;La Ferme
+T1;La Ferme;Escadrille Normandie Niemen
+T1;La Ferme;Liberation
+T1;Liberation;La Ferme
+T1;Liberation;Hotel de ville de Bobigny
+T1;Hotel de ville de Bobigny;Liberation
+T1;Hotel de ville de Bobigny;Bobigny Pablo Picasso
+T1;Bobigny Pablo Picasso;Hotel de ville de Bobigny
+T1;Bobigny Pablo Picasso;Auguste Delaune
+T1;Auguste Delaune;Bobigny Pablo Picasso
+T1;Auguste Delaune;Pont de Bondy
+T1;Pont de Bondy;Auguste Delaune
+T1;Pont de Bondy;Petit Noisy
+T1;Petit Noisy;Pont de Bondy
+T1;Petit Noisy;Noisy le Sec
+T1;Noisy le Sec;Petit Noisy
+
+T2;Defense;Puteaux
+T2;Puteaux;Defense
+T2;Puteaux;Belvedere
+T2;Belvedere;Puteaux
+T2;Belvedere;Suresnes Lonchamp
+T2;Suresnes Lonchamp;Belvedere
+T2;Suresnes Lonchamp;Les Coteaux
+T2;Les Coteaux;Suresnes Lonchamp
+T2;Les Coteaux;Les Milons
+T2;Les Milons;Les Coteaux
+T2;Les Milons;Parc de St Cloud
+T2;Parc de St Cloud;Les Milons
+T2;Parc de St Cloud;Musee de Sevres
+T2;Musee de Sevres;Parc de St Cloud
+T2;Musee de Sevres;Brimborion
+T2;Brimborion;Musee de Sevres
+T2;Brimborion;Meudon sur Seine
+T2;Meudon sur Seine;Brimborion
+T2;Meudon sur Seine;Les Moulineaux
+T2;Les Moulineaux;Meudon sur Seine
+T2;Les Moulineaux;Jacques Henri Lartigue
+T2;Jacques Henri Lartigue;Les Moulineaux
+T2;Jacques Henri Lartigue;Issy Val de Seine
+T2;Issy Val de Seine;Jacques Henri Lartigue
+
+T3;Pont de Garigliano;Balard
+T3;Balard;Pont de Garigliano
+T3;Balard;Desnouettes
+T3;Desnouettes;Balard
+T3;Desnouettes;Porte de Versailles
+T3;Porte de Versailles;Desnouettes
+T3;Porte de Versailles;Georges Brassens
+T3;Georges Brassens;Porte de Versailles
+T3;Georges Brassens;Brancion
+T3;Brancion;Georges Brassens
+T3;Brancion;Porte de Vanves
+T3;Porte de Vanves;Brancion
+T3;Porte de Vanves;Didot
+T3;Didot;Porte de Vanves
+T3;Didot;Jean Moulin
+T3;Jean Moulin;Didot
+T3;Jean Moulin;Porte d'Orleans
+T3;Porte d'Orleans;Jean Moulin
+T3;Porte d'Orleans;Montsouris
+T3;Montsouris;Porte d'Orleans
+T3;Montsouris;Cite Universitaire
+T3;Cite Universitaire;Montsouris
+T3;Cite Universitaire;Stade Charlety
+T3;Stade Charlety;Cite Universitaire
+T3;Stade Charlety;Poterne des Peupliers
+T3;Poterne des Peupliers;Stade Charlety
+T3;Poterne des Peupliers;Porte d'Italie
+T3;Porte d'Italie;Poterne des Peupliers
+T3;Porte d'Italie;Porte de Choisy
+T3;Porte de Choisy;Porte d'Italie
+T3;Porte de Choisy;Porte d'Ivry
+T3;Porte d'Ivry;Porte de Choisy
+
+H;Gare du Nord;St Denis
+H;St Denis;Gare du Nord
+H;St Denis;Epinay Villetaneuse
+H;Epinay Villetaneuse;St Denis
+
+H1;Epinay Villetaneuse;Deuil Montmagny
+H1;Deuil Montmagny;Epinay Villetaneuse
+H1;Deuil Montmagny;Groslay
+H1;Groslay;Deuil Montmagny
+H1;Groslay;Sarcelles Saint-Brice
+H1;Sarcelles Saint-Brice;Groslay
+H1;Sarcelles Saint-Brice;Ecouen Ezanville
+H1;Ecouen Ezanville;Sarcelles Saint-Brice
+H1;Ecouen Ezanville;Domont
+H1;Domont;Ecouen Ezanville
+H1;Domont;Bouffemont Moisselles
+H1;Bouffemont Moisselles;Domont
+H1;Bouffemont Moisselles;Montsoult Maffliers
+H1;Montsoult Maffliers;Bouffemont Moisselles
+
+H11;Montsoult Maffliers;Villaines
+H11;Villaines;Montsoult Maffliers
+H11;Villaines;Belloy Saint-Martin
+H11;Belloy Saint-Martin;Villaines
+H11;Belloy Saint-Martin;Viarmes
+H11;Viarmes;Belloy Saint-Martin
+H11;Viarmes;Seugy
+H11;Seugy;Viarmes
+H11;Seugy;Luzarches
+H11;Luzarches;Seugy
+
+H12;Montsoult Maffliers;Presles Courcelles
+H12;Presles Courcelles;Montsoult Maffliers
+H12;Presles Courcelles;Nointel Mours
+H12;Nointel Mours;Presles Courcelles
+H12;Nointel Mours;Persan Beaumont
+H12;Persan Beaumont;Nointel Mours
+
+H2;Epinay Villetaneuse;La Barre Ormesson
+H2;La Barre Ormesson;Epinay Villetaneuse
+H2;La Barre Ormesson;Enghien les Bains
+H2;Enghien les Bains;La Barre Ormesson
+H2;Enghien les Bains;Champ de courses d'Enghien
+H2;Champ de courses d'Enghien;Enghien les Bains
+H2;Champ de courses d'Enghien;Ermont Eaubonne
+H2;Ermont Eaubonne;Champ de courses d'Enghien
+
+H21;Ermont Eaubonne;Ermont Halte
+H21;Ermont Halte;Ermont Eaubonne
+H21;Ermont Halte;Gros Noyer Saint Prix
+H21;Gros Noyer Saint Prix;Ermont Halte
+H21;Gros Noyer Saint Prix;Saint Leu la Forêt
+H21;Saint Leu la Forêt;Gros Noyer Saint Prix
+H21;Saint Leu la Forêt;Vaucelles
+H21;Vaucelles;Saint Leu la Forêt
+H21;Vaucelles;Taverny
+H21;Taverny;Vaucelles
+H21;Taverny;Bessancourt
+H21;Bessancourt;Taverny
+H21;Bessancourt;Frepillon
+H21;Frepillon;Bessancourt
+H21;Frepillon;Mery sur Oise
+H21;Mery sur Oise;Frepillon
+H21;Mery sur Oise;Meriel
+H21;Meriel;Mery sur Oise
+H21;Meriel;Valmondois
+H21;Valmondois;Meriel
+
+H211;Valmondois;L'Isle Adam Parmain
+H211;L'Isle Adam Parmain;Valmondois
+H211;L'Isle Adam Parmain;Champagne sur Oise
+H211;Champagne sur Oise;L'Isle Adam Parmain
+H211;Champagne sur Oise;Persan Beaumont
+H211;Persan Beaumont;Champagne sur Oise
+
+H22;Ermont Eaubonne;Cernay
+H22;Cernay;Ermont Eaubonne
+H22;Cernay;Franconville Le Plessis Bouchard
+H22;Franconville Le Plessis Bouchard;Cernay
+H22;Franconville Le Plessis Bouchard;Montigny Beauchamp
+H22;Montigny Beauchamp;Franconville Le Plessis Bouchard
+H22;Montigny Beauchamp;Pierrelaye
+H22;Pierrelaye;Montigny Beauchamp
+H22;Pierrelaye;St Ouen l'Aumone Liesse
+H22;St Ouen l'Aumone Liesse;Pierrelaye
+H22;St Ouen l'Aumone Liesse;St Ouen l'Aumone
+H22;St Ouen l'Aumone;St Ouen l'Aumone Liesse
+H22;St Ouen l'Aumone;Pontoise
+H22;Pontoise;St Ouen l'Aumone
+
+H3;Pontoise;Epluches
+H3;Epluches;Pontoise
+H3;Epluches;Pont Petit
+H3;Pont Petit;Epluches
+H3;Pont Petit;Chaponval
+H3;Chaponval;Pont Petit
+H3;Chaponval;Auvers sur Oise
+H3;Auvers sur Oise;Chaponval
+H3;Auvers sur Oise;Valmondois
+H3;Valmondois;Auvers sur Oise
+
+H3;Persan Beaumont;Bruyeres sur Oise
+H3;Bruyeres sur Oise;Persan Beaumont
+H3;Bruyeres sur Oise;Boran sur Oise
+H3;Boran sur Oise;Bruyeres sur Oise
+H3;Boran sur Oise;Precy sur Oise
+H3;Precy sur Oise;Boran sur Oise
+H3;Precy sur Oise;Saint Leu d'Esserent
+H3;Saint Leu d'Esserent;Precy sur Oise
+H3;Saint Leu d'Esserent;Creil
+H3;Creil;Saint Leu d'Esserent
+T4;Aulnay sous Bois;Rougemont - Chanteloup
+T4;Rougemont - Chanteloup;Aulnay sous Bois
+T4;Rougemont - Chanteloup;Freinville - Sevran
+T4;Freinville - Sevran;Rougemont - Chanteloup
+T4;Freinville - Sevran;L'Abbaye
+T4;L'Abbaye;Freinville - Sevran
+T4;L'Abbaye;Lycee Henri Sellier
+T4;Lycee Henri Sellier;L'Abbaye
+T4;Lycee Henri Sellier;Gargan
+T4;Gargan;Lycee Henri Sellier
+T4;Gargan;Les Pavillons-sous-Bois
+T4;Les Pavillons-sous-Bois;Gargan
+T4;Les Pavillons-sous-Bois;Allee de la Tour - Rendez-Vous
+T4;Allee de la Tour - Rendez-Vous;Les Pavillons-sous-Bois
+T4;Allee de la Tour - Rendez-Vous;Les Coquetiers
+T4;Les Coquetiers;Allee de la Tour - Rendez-Vous
+T4;Les Coquetiers;Remise a Jorelle
+T4;Remise a Jorelle;Les Coquetiers
+T4;Remise a Jorelle;Bondy
+T4;Bondy;Remise a Jorelle
