@@ -1,0 +1,11 @@
+{
+  "name": "7dbin7w-bands",
+  "version": "0.0.1",
+  "dependencies":{
+    "hiredis": ">= 0.1.14",
+    "redis": ">= 0.7.2",
+    "csv": ">= 0.0.19",
+    "bricks": ">= 1.1.4",
+    "mustache": ">= 0.5.2"
+    }
+}
