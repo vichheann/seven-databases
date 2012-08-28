@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redis - 7 Databases in 7 Weeks</title>
+    <style type="text/css">
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      background-color: rgba(211,211,211,1);
+    }
+    input[type=text] {
+      border: 5px solid white;
+      -webkit-box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+              0 0 16px rgba(0,0,0,0.1);
+      -moz-box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+              0 0 16px rgba(0,0,0,0.1);
+      box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+              0 0 16px rgba(0,0,0,0.1);
+      padding: 5px;
+      background: rgba(255,255,255,0.5);
+      margin: 0 0 10px 0;
+      font-size: medium;
+    }
+    .shorten {
+      font-size: large;
+    }
+    </style>
+  </head>
+  <body>
+    <h2>Shortening URL</h2>
+    <form method="post">
+    <input type="text" value="<%=params[:url]%>" name="url" id="url" size="80" />
+    <input type="submit" value="Go" id="submit" />
+    </form>
+    <%
+      if @shortcode
+        short_url = "http://#{request.host}:#{request.port}/#{@shortcode}"
+    %>
+    <div class="shorten">
+      <p>Your shortened URL is: <a href='<%=short_url%>' target='_blank'><%=short_url%></a>
+      </p>
+    </div>
+    <% end %>
+  </body>
+</html>
