@@ -91,6 +91,15 @@ function writeTemplate( response, innerHtml, values )
   response.end();
 }
 
+// Blame me, please
+function transform_to_JSON( bands )
+{
+  return bands.map(
+       function(band){
+         return JSON.parse(band.replace(/name=/,'"name":').replace(/from=/,'"from":').replace(/to=/,'"to":')
+                               .replace(/:([^,]*),/g, ':"$1",').replace(/:([^,]*)\}/g, ':"$1"}'));
+      });
+}
 
 // A Nodejs web app utility setup
 appServer = new bricks.appserver();
@@ -139,11 +148,14 @@ appServer.addRoute("^/band$", function(req, res) {
  */
 appServer.addRoute("^/artist$", function(req, res) {
   var
+    b = [];
     artistName = req.param('name'),
     rolesQuery = 'g.V.filter{it.name=="'+artistName+'"}.out("plays").role.dedup',
-    bandsQuery = 'g.V.filter{it.name=="'+artistName+'"}.in("member").name.dedup';
+    bandsQuery = 'g.V.filter{it.name=="'+artistName+'"}'+
+                 '.inE("member").transform{[name:it.outV.next().name,from:it.map.next().from_date,to:it.map.next().to_date]}';
   gremlin( rolesQuery, function(roles) {
     gremlin( bandsQuery, function(bands) {
+      bands = transform_to_JSON(bands);
       var values = { artist: artistName, roles: roles, bands: bands };
       var body = '<h3>{{artist}} Performs these Roles</h3>';
       body += '<ul>{{#roles}}';
@@ -151,7 +163,7 @@ appServer.addRoute("^/artist$", function(req, res) {
       body += '{{/roles}}</ul>';
       body += '<h3>Play in Bands</h3>';
       body += '<ul>{{#bands}}';
-      body += '<li><a href="/band?name={{.}}">{{.}}</a></li>';
+      body += '<li>({{from}} / {{to}}) <a href="/band?name={{name}}">{{name}}</a></li>';
       body += '{{/bands}}</ul>';
       writeTemplate( res, body, values );
     });

@@ -1,9 +1,9 @@
 /***
  * Excerpted from "Seven Databases in Seven Weeks",
  * published by The Pragmatic Bookshelf.
- * Copyrights apply to this code. It may not be used to create training material, 
+ * Copyrights apply to this code. It may not be used to create training material,
  * courses, books, articles, and the like. Contact us if you are in doubt.
- * We make no guarantees that this code is fit for any purpose. 
+ * We make no guarantees that this code is fit for any purpose.
  * Visit http://www.pragmaticprogrammer.com/titles/rwdata for more book information.
 ***/
 
@@ -51,15 +51,15 @@ function populateRedis() {
     var
       artist = data[2],
       band = data[3],
-      roles = buildRoles(data[4]);
+      roles = buildRoles(data[4]),
+      from = data[5] || '',
+      to = data[6] || '';
     if( band === '' || artist === '' ) {
       trackLineCount();
       return true;
     }
     redis_client.sadd('band:' + band, artist);
-    roles.forEach(function(role) {
-      redis_client.sadd('artist:' + band + ':' + artist, role);
-    });
+    redis_client.hmset('artist:' + band + ':' + artist, { "roles":roles, "from": from, "to": to });
     trackLineCount();
   }).
   on('end', function(total_lines)

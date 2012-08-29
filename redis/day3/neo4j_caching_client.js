@@ -91,10 +91,10 @@ exports.createClient = function(neo4j_options, redis_options) {
   }
 
   // create a relationship between two nodes
-  neo4jClient.createRelationship = function(fromNode, toNode, type, callback) {
+  neo4jClient.createRelationship = function(fromNode, toNode, type, data, callback) {
     var fromPath = (fromNode || '').replace(/^.*?\/db\/data\//, '');
     neo4jClient.post(
-      [fromPath, 'relationships'], { to: toNode, type: type }, callback
+      [fromPath, 'relationships'], { to: toNode, type: type, data: data }, callback
     );
   }
 

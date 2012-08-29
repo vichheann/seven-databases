@@ -54,13 +54,13 @@ function feedBandToNeo4j(band, progress) {
     band.artists.forEach(function(artist) {
       lookup('artists', 'name', artist.name, function(artistNode){
         progress.emit('progress', 'artist');
-        relate(bandNode.self, artistNode.self, 'member', function(){
+        relate(bandNode.self, artistNode.self, 'member', {from_date: artist.from, to_date: artist.to}, function(){
           progress.emit('progress', 'member');
         });
         artist.role.forEach(function(role){
           lookup('roles', 'role', role, function(roleNode){
             progress.emit('progress', 'role');
-            relate(artistNode.self, roleNode.self, 'plays', function(){
+            relate(artistNode.self, roleNode.self, 'plays', {}, function(){
               progress.emit('progress', 'plays');
             });
           });

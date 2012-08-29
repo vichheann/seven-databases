@@ -124,26 +124,34 @@ function populateBands() {
       var bandName = bandKey.substring(5);
       redisClient.smembers(bandKey, function(error, artists) {
         // batch the Redis calls to get all artists' information at once
-        var roleBatch = [];
+        var infosBatch = [];
         artists.forEach(function(artistName) {
-          roleBatch.push([
-            'smembers',
-            'artist:' + bandName + ':' + artistName
+          infosBatch.push([
+            'hgetall',
+            'artist:' + bandName + ':' + artistName,
           ]);
         });
 
         // batch up each band member to find the roles they play
         redisClient.
-          multi(roleBatch).
-          exec(function(err, roles)
+          multi(infosBatch).
+          exec(function(err, infos)
           {
             var
               i = 0,
-              artistDocs = [];
+              artistDocs = [],
+              info = [];
+              roles = [];
 
             // build the artists sub-documents
             artists.forEach( function(artistName) {
-              artistDocs.push({ name: artistName, role : roles[i++] });
+              info = infos[i++];
+              if (info.roles.length > 0) {
+                roles = info.roles.split(',');
+              }
+              else
+                roles = [];
+              artistDocs.push({ name: artistName, role: roles, from: info.from, to: info.to });
             });
 
             // add this new band document to the batch to be executed later
