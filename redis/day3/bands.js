@@ -22,6 +22,10 @@ var
   couchUtil = require('./populate_couch.js'),
   neo4j = require('./neo4j_caching_client.js'),
 
+  mongo = require('mongodb'),
+  mongoServer = new mongo.Server('ubuntudev12', 27017, {auto_reconnect: true}),
+  mongodb = new mongo.Db('test', mongoServer),
+
   // database clients
   couchdb_port = 5984,
   couchdb_host = 'ubuntudev12',
@@ -129,11 +133,18 @@ appServer.addRoute("^/band$", function(req, res) {
   getCouchDoc( bandNodePath, res, function( couchObj ) {
     gremlin( membersQuery, function(graphData) {
       var artists = couchObj && couchObj['artists'];
-      var values = { band: bandName, artists: artists, bands: graphData };
+      var samples = couchObj['samples'] || []; // add song title in a 'samples' array with the couchdb web admin
+      var values = { band: bandName, artists: artists, bands: graphData, samples: samples};
       var body = '<h2>{{band}} Band Members</h2>';
       body += '<ul>{{#artists}}';
       body += '<li><a href="/artist?name={{name}}">{{name}}</a></li>';
       body += '{{/artists}}</ul>';
+      body += '<h3>Samples</h3>';
+      body += '{{#samples}}<div><p>{{.}}</p><audio controls preload="auto">';
+/*      body += '<source src="/media?file={{.}}.mp3"/>',
+      body += '<source src="/media?file={{.}}.ogg"/>', */
+      body += '<source src="/media?file={{.}}.webm"/>',
+      body += '</audio></div>{{/samples}}';
       body += '<h3>You may also like</h3>';
       body += '<ul>{{#bands}}';
       body += '<li><a href="/band?name={{.}}">{{.}}</a></li>';
@@ -148,7 +159,6 @@ appServer.addRoute("^/band$", function(req, res) {
  */
 appServer.addRoute("^/artist$", function(req, res) {
   var
-    b = [];
     artistName = req.param('name'),
     rolesQuery = 'g.V.filter{it.name=="'+artistName+'"}.out("plays").role.dedup',
     bandsQuery = 'g.V.filter{it.name=="'+artistName+'"}'+
@@ -183,6 +193,40 @@ appServer.addRoute("^/search$", function(req, res) {
     });
     res.write( JSON.stringify(bands) );
     res.end();
+  });
+});
+
+mongodb.open(function(err, mongodb) {
+  if (err) {
+    console.log(err);
+    process.exit(1);
+  }
+  console.log("Mongodb opened");
+});
+
+appServer.addRoute("^/media$", function(req, res) {
+  var fileName = req.param('file');
+
+  var gridStore = new mongo.GridStore(mongodb, fileName, "r", {root:'fs'});
+  gridStore.open(function(err, gridStore) {
+    var stream = gridStore.stream(true),
+        contentType = gridStore.contentType;
+    if (contentType.length == 0) contentType = "audio/mpeg";
+    res.sendDate;
+    res.setHeader("Content-Type", contentType);
+    stream.on("data", function(chunk) {
+      console.log("Streaming ... " + fileName);
+      res.write(chunk);
+    });
+
+    stream.on("end", function() {
+      res.end();
+    });
+
+    stream.on("error", function(err) {
+      console.log(err);
+      res.end();
+    });
   });
 });
 
