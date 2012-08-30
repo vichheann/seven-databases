@@ -8,6 +8,8 @@
 ***/
 
 var
+  settings = require('./settings.js'),
+
   // how many bands we expect to process
   totalBands = null,
   // and keep track of how many bands we have processed
@@ -22,8 +24,8 @@ var
   // database clients
 //[Vic] createClient is deprecated
 // couchPort = http.createClient(5984),
-  couchPort = '5984',
-  couchHost = 'ubuntudev12',
+  couchPort = settings.couchdb.port,
+  couchHost = settings.couchdb.host,
   couchdb_options = {
       host: couchHost,
       port: couchPort,
@@ -32,7 +34,7 @@ var
       method: 'POST',
       headers: {'Content-Type': 'application/json'}
   },
-  redisClient = redis.createClient(6379, '172.16.195.1');
+  redisClient = redis.createClient(settings.redis.port, settings.redis.host);
 
 /**
  * A helper function that builds a good CouchDB key

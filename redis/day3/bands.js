@@ -8,7 +8,7 @@
 ***/
 
 var
-  port = 8080,
+  settings = require('./settings.js'),
   jsonHeader = {'Content-Type':'application/json'},
 
   // standard libraries
@@ -23,15 +23,14 @@ var
   neo4j = require('./neo4j_caching_client.js'),
 
   mongo = require('mongodb'),
-  mongoServer = new mongo.Server('ubuntudev12', 27017, {auto_reconnect: true}),
+  mongoServer = new mongo.Server(settings.mongodb.host, settings.mongodb.port, {auto_reconnect: true}),
   mongodb = new mongo.Db('test', mongoServer),
 
   // database clients
-  couchdb_port = 5984,
-  couchdb_host = 'ubuntudev12',
-  redis_host = '172.16.195.1',
-  neo4jClient = neo4j.createClient({ host: 'ubuntudev12' }, { host: redis_host}),
-  redisClient = redis.createClient(6379, redis_host);
+  couchdb_port = settings.couchdb.port,
+  couchdb_host = settings.couchdb.host,
+  neo4jClient = neo4j.createClient({ host: settings.neo4j.host }, { host: settings.redis.host}),
+  redisClient = redis.createClient(settings.redis.port, settings.redis.host);
 
 var
   gremlin = neo4jClient.runGremlin;
@@ -235,5 +234,5 @@ appServer.addRoute(".+", appServer.plugins.fourohfour);
 appServer.addRoute(".+", appServer.plugins.loghandler, { section: "final" });
 
 // start up the server
-console.log("Starting Server on port " + port);
-appServer.createServer().listen(port);
+console.log("Starting Server on port " + settings.port);
+appServer.createServer().listen(settings.port);

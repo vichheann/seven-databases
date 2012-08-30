@@ -8,6 +8,8 @@
 ***/
 
 var
+  settings = require('./settings.js'),
+
   // standard libraries
   events = require('events'),
   esc = require('querystring').escape,
@@ -19,14 +21,14 @@ var
 
   // database clients
   neo4jClient = neo4j.createClient({
-    host: 'ubuntudev12',
+    host: settings.neo4j.host,
     limit: 10
-  }, {host: '172.16.195.1'}),
+  }, {host: settings.redis.host}),
   couchWatcher = couch.createWatcher({
     db: 'bands',
-    host: 'ubuntudev12'
+    host: settings.redis.host
   }),
-  redisClient = redis.createClient(6379, '172.16.195.1');
+  redisClient = redis.createClient(settings.redis.port, settings.redis.host);
 
 // feed band information into redis for autocompleter
 function feedBandToRedis(band) {

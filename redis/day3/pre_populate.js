@@ -8,6 +8,8 @@
 ***/
 
 var
+  settings = require('./settings.js'),
+
   // The band data file name in tab-seperated form
   tsvFileName = 'group_membership.tsv',
   // track how many file lines we've processed
@@ -18,7 +20,7 @@ var
   redis = require('redis'),
 
   // database clients
-  redis_client = redis.createClient(6379, "172.16.195.1");
+  redis_client = redis.createClient(settings.redis.port, settings.redis.host);
 
 /**
  * A helper function that splits up the comma-seperated list of roles and
